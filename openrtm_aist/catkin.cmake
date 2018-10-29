@@ -25,7 +25,8 @@ if(NOT EXISTS ${CMAKE_CURRENT_BINARY_DIR}/installed)
     INSTALL_DATA_DIR=${PROJECT_SOURCE_DIR}/share
     MK_DIR=${mk_PREFIX}/share/mk
     PATCH_DIR=${PROJECT_SOURCE_DIR}
-    MD5SUM_FILE=${PROJECT_SOURCE_DIR}/OpenRTM-aist-1.1.0-RELEASE.tar.gz.md5sum
+    #MD5SUM_FILE=${PROJECT_SOURCE_DIR}/OpenRTM-aist-1.1.0-RELEASE.tar.gz.md5sum
+    MD5SUM_FILE=${PROJECT_SOURCE_DIR}/OpenRTM-aist-1.1.2-RELEASE.tar.gz.md5sum
     VERBOSE=1
     RESULT_VARIABLE _make_failed)
   if (_make_failed)
